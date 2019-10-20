@@ -1,0 +1,90 @@
+## 前言
+上一篇文章对自己的现状进行了剖析，并整理了一份待学知识清单。这篇文章便把这份知识清单展开，告诉自己这份清单涉及到哪些。
+
+## 技能清单
++ 扎实的Java基础
++ 掌握Android常用组件原理
++ 了解Android底层framework
++ 熟悉Android源码
++ 对Android Native有一定经验
++ 熟练掌握常用的设计模式
++ 具有良好的编程习惯与编程风格
++ 熟悉Android性能分析工具，有UI卡顿、APP启动、包瘦身和内存等性能优化
++ 阅读牛X的三方库源码并吸收消化
++ 多看一手资料
++ 有输入并且有输出
++ 尝试维护博客
++ Github小星星
+
+## 拆分
+### Java基础
+![java基础](https://user-gold-cdn.xitu.io/2019/10/20/16de8c2034b5ed38?w=889&h=1136&f=png&s=101007)
+&nbsp;&nbsp;&nbsp;&nbsp;参考[菜鸟-Java 教程](https://www.runoob.com/java/java-tutorial.html)和[w3c-Java教程](https://www.w3cschool.cn/java/)整理的一份基础知识图。粗略浏览了这两份教程，基础知识部分大致是一样的。不过也有些不一样：
+菜鸟的java有部分内容有配图，能够帮助理解。
+w3c的java则多了一些扩展教程，有兴趣也可以看看。
+
+### 常用Android组件原理
+&nbsp;&nbsp;&nbsp;&nbsp;提到组件，那一定就是安卓四大组件(活动、服务、广播接收者、内容提供器)了。
+
+### Android底层framework
+![api](https://user-gold-cdn.xitu.io/2019/10/20/16de8c339fb1d883?w=1384&h=2038&f=png&s=101554)
+#### [ContentProvider](https://developer.android.google.cn/guide/topics/providers/content-providers)
+&nbsp;&nbsp;&nbsp;&nbsp;管理一组共享的应用数据，您可以将这些数据存储在文件系统、SQLite数据库、网络中或者您的应用可访问的任何其他持久化存储位置。其他应用可通过内容提供程序查询或修改数据（如果内容提供器允许）。简而言之，内容提供器是应用之间数据共享的媒介。
+
+#### [View System](https://developer.android.google.cn/guide/topics/ui/overview.html)
+&nbsp;&nbsp;&nbsp;&nbsp;丰富、可扩展的视图系统，可用以构建应用的 UI，包括列表、网格、文本框、按钮甚至可嵌入的网络浏览器
+
+#### Managers
+##### [Activity](https://developer.android.google.cn/guide/components/activities.html)
+&nbsp;&nbsp;&nbsp;&nbsp;Activity是一个应用组件，用户可与其提供的屏幕进行交互，以执行拨打电话、拍摄照片、发送电子邮件或查看地图等操作。 每个 Activity 都会获得一个用于绘制其用户界面的窗口。窗口通常会充满屏幕，但也可小于屏幕并浮动在其他窗口之上。
+
+##### [Location](https://developer.android.google.cn/training/location)
+&nbsp;&nbsp;&nbsp;&nbsp;位置是移动应用程序的一个独特特性，利用好位置可以让你的程序有更佳的情景体验。
+
+##### [Notification](https://developer.android.google.cn/guide/topics/ui/notifiers/notifications.html)
+&nbsp;&nbsp;&nbsp;&nbsp;Android在应用的界面之外显示的消息，旨在向用户提供提醒、来自他人的通信信息或应用中的其他实时信息。用户可以点按通知来打开应用，也可以直接在通知中执行某项操作。
+
+##### [Resource](https://developer.android.google.cn/guide/topics/resources/overview.html)
+&nbsp;&nbsp;&nbsp;&nbsp;资源管理器。
+
+##### 其他
+&nbsp;&nbsp;&nbsp;&nbsp;这里还有Package、Telephony、Window三个我没找到，找到后再补充。
+
+### 熟悉Android源码
+&nbsp;&nbsp;&nbsp;&nbsp;既然要熟悉源码，工欲善其事必先利其器。
+宇哥给我安利的查看源码网站：[androidxref](http://androidxref.com/)
+ 
+### 对Android Native有一定经验
+#### Android Native是啥
+&nbsp;&nbsp;&nbsp;&nbsp;如果没分析错的话，这里应该是和本地交互的东西。那么就有ndk和jni了。
+
+### 熟练掌握常用的设计模式
+&nbsp;&nbsp;&nbsp;&nbsp;设计模式这部分准备结合《Head First设计模式》和[菜鸟教程-设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)来学习。
+
+### 具有良好的编程习惯与编程风格
+&nbsp;&nbsp;&nbsp;&nbsp;参考《阿里巴巴Java开发手册》
+
+### 熟悉Android性能分析工具，有UI卡顿、APP启动、包瘦身和内存等性能优化
+&nbsp;&nbsp;&nbsp;&nbsp;参考官网的[性能](https://developer.android.google.cn/topic/performance)主题下的文章。
+
+### 阅读牛X的三方库源码并吸收消化
+&nbsp;&nbsp;&nbsp;&nbsp;Retrofit、OKHttp、RxJava、Glide、EventBus等
+
+### 多看一手资料
+&nbsp;&nbsp;&nbsp;&nbsp;[官网](https://developer.android.google.cn/)就是一手资料，多看官网就对了。
+
+### 有输入并且有输出
+&nbsp;&nbsp;&nbsp;&nbsp;在我充电这段时间就会持续输出，同时也会不断思考如何更加优雅的输出。
+
+### 尝试维护博客
+&nbsp;&nbsp;&nbsp;&nbsp;掘金：https://juejin.im/user/5da5a5b65188256f4e707a23
+
+## 总结
+&nbsp;&nbsp;&nbsp;&nbsp;虽然看起来还是很模糊，不过大致方向已经规划好了，接着就是学习了，在学习中补充，干起来！
+
+## 参考资料
+[1.安卓平台架构](https://developer.android.google.cn/guide/platform)
+
+[2.菜鸟-Java 教程](https://www.runoob.com/java/java-tutorial.html)
+
+[3.w3c-Java教程](https://www.w3cschool.cn/java/)
